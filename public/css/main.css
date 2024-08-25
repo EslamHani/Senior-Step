@@ -1,0 +1,714 @@
+p,h1,h2,h3,h4,h5,h6,a{
+        font-family: sans-serif;
+}
+.category-name{
+	font-family: serif;
+}
+.anchor{
+    font-weight: bold;
+    color: white;
+}
+.anchor:hover{
+	color: white;
+}
+.archCourse{
+    float: right; 
+    border-color: transparent; 
+    background-color: transparent; 
+    margin-top: -5px;
+    border: none;
+}
+.span{
+    font-weight: bold;
+    color: #f5593d;
+}
+.head{
+    font-weight: bold;
+    color: gray;
+}
+.head2{
+    font-weight: bold;
+    margin-top: -20px;
+}
+.cm-1{
+    padding: 0px 5px 0 5px;
+    margin-bottom: 30px;
+}
+.cm-2{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.cm-3{
+    font-weight: bold;
+    color: gray; font-size: 10px;
+    display: inline-block;
+}
+.cm-4{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.cm-5{
+    color: #304175;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.cm-6{
+    font-weight: bold;
+    color: gray;
+    margin-left: 10px;
+}
+.cm-7{
+    width: 75%;
+    background-color: #ececec;
+    border-radius: 0px 25px 25px 20px;
+    padding: 10px 5px;
+    font-family: sans-serif;
+    color: black;
+}
+.strong{
+    font-family: sans-serif;
+    color: black;
+}
+.cm-8{
+    margin-bottom: -15px;
+    font-size: 12px;
+}
+.cm-9{
+    margin-left: 50px;
+    display: none;
+}
+.cm-11{
+    width: 67%;
+    background-color: #ececec;
+    border-radius: 0px 25px 25px 20px;
+    padding: 10px 5px;
+    font-family: sans-serif;
+    color: black;
+}
+.cm-header{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.dot{
+    margin-left:10px;
+    font-size:20px;
+    font-weight: bold;
+}
+.aboutUs-header{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.aboutUs-pg1{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.aboutUs-pg2{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.info{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.title-anchor:hover{
+    text-decoration: underline;
+    color: black;
+}
+.reply{
+        padding: 10px;
+    }
+.reply:hover{
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+.best-reply{
+    padding: 10px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.sidebar a{
+    color: gray;
+    font-family: sans-serif;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.sidebar a:hover{
+    background: #e1e1e1;
+    color: black;
+}
+
+.sidebar .sidebaractive{
+    background: #e1e1e1;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.disc1{
+    border: 1px solid #cdc3c3;
+    border-radius: 15px; 
+    padding: 15px;
+}
+
+.discImg{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.discTitle{
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.discDot{
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.discDate{
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+}
+
+.discCat{
+    float: right;
+    font-size: 9px;
+    margin-top: 12px;
+}
+
+.discDivBody{
+    margin-left: 60px;
+    width: 60%; 
+}
+
+.discBody{
+    font-size: 14px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.discView{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+
+.discReply{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.discSolve{
+    font-size: 7px;
+    padding: 3px 7px;
+    margin-left: 5px;
+}
+
+.discEmpty{
+    font-size: 14px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.showdisc{
+    border: 1px solid #cdc3c3;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.showImg{
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+.showLevel{
+    position: absolute;
+    left: 6px;
+    top: 55px;
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.showName{
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.showDot{
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.showDate{
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+}
+
+.showCat{
+    float: right;
+    font-size: 9px;
+    margin-top: 12px;
+}
+
+.showView{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bold;
+    float: right;
+    margin:15px;
+}
+
+.showReplyCount{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-top: 15px;
+    float: right;
+}
+
+.showTitle{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.titledisc{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.showBody{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.bodydisc{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.showImgDisc{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.discReply2{
+    margin-left: 60px;
+    margin-top: 10px;  
+}
+
+.showdiscReply{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.createReply{
+    border: 1px solid #cdc3c3;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.errorReply{
+    color: red;
+    font-family: sans-serif;
+}
+
+.cardBody{
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.CreateBestReply{
+    float: right;
+    margin-top: 10px;
+}
+
+.BestReply{
+    font-size: 10px;
+    float: right;
+    margin-top: 10px;
+}
+
+.list-group-item:hover{
+    background-color: #B7AFAF;
+}
+.list-group-item{
+    font-family: sans-serif;
+}
+.h3{
+    font-family: 'Jomolhari', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;"
+}
+.p{
+    font-family: 'Jomolhari', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;"    
+}
+
+.pVideo{
+    color: black; 
+    font-family: sans-serif; 
+    margin-top: 10px; 
+    font-weight: bold;
+}
+
+.relatedNews{
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.card-title1{
+    color: #3a3636;
+    font-weight: bold;
+    font-family: serif;
+}
+.card-text1{
+    color: black;
+    font-family: serif;
+}
+
+.fileImage{
+    min-height: 230px;
+    max-height: 230px;
+}
+
+.archiveHead{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.msg{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.notification{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.list-noty{
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.disc-notfy{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.date-notfy{
+    margin-left: 60px;
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.msg-notfy{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.UserName{
+    margin: -3px 0px;
+    color: black;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+.bio{
+    color: #969494;
+    font-family: sans-serif;
+}
+
+.profileUserInfo{
+    background-color: #f4f4f473;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word; 
+    margin-bottom: 20px;
+}
+
+.setting1{
+    background-color: #f4f4f473;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    overflow-wrap: break-word;
+}
+
+.setting2{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.notificationsCount{
+    position: absolute;
+    top: -10px; right: -14px;
+    color: black; 
+    font-size: 14px; 
+    background: #d31805e0; 
+    padding: 2px 7px; 
+    border-radius: 50px;
+}
+
+.h5-edit{
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+.timeExam{
+    float: right;
+    margin-top: 30px; 
+    font-family: sans-serif; 
+    font-size: 17px; 
+    font-weight: bold;
+}
+
+.timeExam1{
+    float: right; 
+    margin-top: 30px; 
+    margin-right: 10px; 
+    font-family: sans-serif; 
+    font-size: 17px; 
+    font-weight: bold;
+}
+
+.scorequiz{
+    font-family: sans-serif; 
+    font-size: 17px; 
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.card-exam{
+    color: black; 
+    font-family: sans-serif; 
+    font-size: 17px;
+}
+
+.questionNum{
+    font-family: 'Noticia Text', serif; 
+    color: #070707d6; 
+    font-weight: bold;
+}
+
+.questionoptions{
+    font-family: sans-serif; 
+    font-size: 15px; 
+    color: black;
+}
+
+.search-input{
+    width: 75%;
+    height: 47px; 
+    font-size: 17px; 
+    display: inline;
+}
+
+.sec-header{
+    font-weight: bold; 
+    color: gray;
+}
+
+.sec-desc{
+    font-weight: bold; 
+    margin-top: -20px;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+.watch{
+    background-color: #e6e6e6;
+}
+.second{
+  margin-left: 5px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.list:hover{
+  background-color: #B7AFAF;
+}
+.list{
+  font-family: sans-serif;
+}
+.videos_list{
+  width: 150px;
+  display: inline-block;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.video-title{
+    font-weight: bold; 
+    color: black; 
+    font-family: sans-serif;
+}
+
+.rel-courses{
+    font-family: sans-serif; 
+    color: black; 
+    font-weight: bold;
+}
+
+.list-videos-title{
+    width: 100%; 
+    height: 450px; 
+    overflow-y: auto;
+}
+
+.listTime{
+    font-family: sans-serif; 
+    font-size: 10px; 
+    font-weight: bold; 
+    color: gray;
+}
+
+.listNum{
+    color: black; 
+    margin-right: 3px; 
+    font-family: sans-serif;
+}
+
+.videoDisc{
+    color: #0B0B0B; 
+    font-family: sans-serif;
+}
+
+
+.discLike{
+    margin-top: 10px; 
+    margin-left: 45px;
+}
+
+.likebutton{
+    background: transparent; 
+    border: none; 
+}
+
+.imgBody{
+    border-radius: 5px; 
+    width: 100%;
+}
+
+.u-likes{
+    font-size: 14px; 
+    color: gray; 
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 5px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    top: -10px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: transparent;
+}
+.inputfile + label {
+    cursor: pointer; /* "hand" cursor */
+}
+
+.selectImageReply{
+    position: absolute;
+    bottom: 80px;
+    margin-top: 10px;
+}
+
+.friends{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .second {
+    width: 140px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 1200px;) {
+  .videos_list{
+    width: 100px;
+  }
+}
+
